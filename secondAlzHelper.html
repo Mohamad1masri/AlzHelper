@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="alzhelper-icon" href="logoB-PhotoRoom.png-PhotoRoom.png" sizes="	128×128	">
+  <link rel="stylesheet" href="CSSforSecondAlz.css" type="text/css">
+  <title>AlzHelper</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-sm ">
+    <li class="container">
+      <a class="navbar-brand" href="alzhelper.html">Main Page</a>
+    </li>
+    <li class="container">
+      <a class="navbar-brand" href="#main-container">About AlzHelper</a>
+    </li>
+    <li class="container">
+      <a class="navbar-brand" href="#about-alzheimers">About Alzheimer's</a>
+    </li>
+    <li class="container">
+      <a class="navbar-brand" href="#ComponentsOf-alzhelper">How was it made</a>
+    </li>
+    <li class="container">
+      <a class="navbar-brand" href="#Aboutthe-creaters">About the creaters</a>
+    </li>
+  </nav>
+
+  <div id="main-container" class="container" >
+    <div id="main-title" class="text-center mb-4">AlzHelper</div>
+    <div id="sub-title">What is AlzHelper?</div>
+    <div class="row">
+      <div id="main-text" class="col-md-6">
+        <p>
+          Well, it's a device that can be worn on the wrist. But the real question is what is it for, and how does it work?
+          First, this device, called "AlzHelper," is for people with Alzheimer. Briefly, it's for people who forget things and places. This device works by some electrical components but mainly it's all about the sensors.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img id="1IMG" src="dev.IMG.jpg" alt="AlzHelper Image" class="img-fluid" style="width: 600px">
+      </div>
+    </div>
+    <p class="mt-4">
+      Learn more about Alzheimer: <a id="link-alzheimer" href="#about-alzheimers">Alzheimer</a>
+    </p>
+  </div>
+
+  <div id="about-alzheimers" class="container mt-5">
+    <h2 class="last-title">About Alzheimer's</h2>
+    <div class="row">
+      <div class="col-md-6">
+    <iframe width="100%" height="315" src="What%20Is%20Alzheimer's%20Disease%EF%BC%9F.mp4" title="Alzheimer's Video" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="col-md-6">
+    <img src="pic1r.png" alt="Alzheimer's Image" class="img-fluid" style="width: 100%; height: 315px;">
+  </div>
+</div>
+
+    
+    <div class="mt-4">
+      <h3 class="last-title">What is Alzheimer's?</h3>
+      <p>
+        Alzheimer's is a progressive neurodegenerative disorder that primarily affects older adults. It is characterized by memory loss, cognitive decline, and behavioral changes. The risk of developing Alzheimer's increases with age.
+      </p>
+
+      <h3>Age of Onset</h3>
+      <p>
+        Alzheimer's typically begins after the age of 65, but early-onset Alzheimer's can occur in individuals as young as their 40s or 50s.
+      </p>
+
+      <h3>Impact and Care</h3>
+      <p>
+        Alzheimer's patients require significant care and support as the disease progresses. Memory loss can lead to confusion and disorientation, and individuals may become lost or forget their surroundings.
+      </p>
+
+      <h3>How AlzHelper Can Help</h3>
+      <p>
+        AlzHelper is designed to assist individuals with Alzheimer's by providing support and reminders. Its features include:<br> 1.Live location tracking.<br>2.Safe zone.<br>3.Strong emotions tracking.
+      </p>
+    </div>
+  </div>
+<br><br><br><br><br>  
+  <div id="ComponentsOf-alzhelper" class="container">
+  <h3 class="last-title">How was AlzHelper made?</h3>
+  
+  <div>
+    <p> AlzHelper is made with some electrical components which are :</p>
+  </div>
+
+  <div class="component">
+    <img src="%5Bremoval.ai%5D_arduino-uno.png" alt="Arduino UNO" class="img-fluid" style="width: 400px; height: 300px;">
+    <p><strong>Arduino UNO:</strong> Arduino uno is a microcontroller board based on ATmega328P(datasheet). It has 14 digital I/O ports (6 of which can be used as PWM outputs), 6 analog inputs, a 16MHz ceramic resonator (CSTCE16M0V53-R0), a USB connection, a power socket, an ICSP header and a reset button.
+    Contains everything needed to support the microcontroller; Simply connect it to a computer with a USB cable or power it with an AC to DC adapter or battery to get started.It is the brain of AlzHelper.</p>
+  </div>
+
+  <div class="component">
+    <img src="%5Bremoval.ai%5D_gpsneo6m.png" alt="GPS NEO 6M" class="img-fluid" style="width: 400px; height: 300px;">
+    <p><strong>GPS NEO 6M:</strong> The NEO-6M GPS module is a well-performing complete GPS receiver with a built-in 25 x 25 x 4mm ceramic antenna, providing powerful satellite search capability. Using the power and signal indicators, you can monitor the status of the unit.It provides accurate location information for AlzHelper.</p>
+  </div>
+
+  <div class="component">
+    <img src="%5Bremoval.ai%5D_gsr-sensor.png" alt="GSR Sensor" class="img-fluid" style="width: 400px; height: 300px;">
+    <p><strong>GSR Sensor:</strong> GSR stands for galvanic skin response, which is a way to measure the electrical conductivity of the skin. Strong emotion can stimulate the sympathetic nervous system, causing the sweat glands to produce more sweat. Grove - GSR allows you to detect these powerful feelings by attaching two electrodes to two fingers on one hand, this helps in monitoring emotional states.</p>
+  </div>
+
+  <div class="component">
+    <img src="%5Bremoval.ai%5D_sim.png" alt="SIM800L" class="img-fluid" style="width: 400px; height: 300px;">
+    <p><strong>SIM800L:</strong>
+    Small GSM/GPRS module
+    SIM800L is a mini cellular module that allows GPRS transmission to send and receive SMS and make and receive voice calls. Low cost, small size and quad-band support make this unit an ideal solution for any project requiring long-range communication, enabling communication for live tracking and notifications.</p>
+  </div>
+</div>
+<br><br><br><br><br>  
+  <div id="Aboutthe-creaters" class="container">
+    <h3 class="last-title">How was AlzHelper made?</h3>
+    
+    <div>
+      <p><strong>Who are they?</strong>
+      They are three teenagers who have the following names "ALi , Mohammad , and Mohammad Ali"
+       they are from Lebanon specifically from Tyre city in the south of lebanon. They have the same age which is 14.
+      </p>
+      <img src="IMG-20231211-WA0012.jpg" alt="The Team" class="img-fluid" style="width: 400px; height: 300px;">
+    </div>
+    
+    <div>
+      <p><strong>How did they meet and where did they learn Arduino?</strong>
+      They started meeting in an academy called "Innovators Academy", which is an academy where children and teenagers learn coding it consists of seven courses, so in each course their relation with each other grew more and more. On the fourth course after they learned Arduino their teacher Mr.Hussein fawaz told them about a tournament in lebanon that teams of three who should be seniors 
+        to compete in their invention. He promised them that if they get an idea that no one could think of. And they did, they invented AlzHelper. This team won the second place in this tournament, in addition of them being younger than the other competitors.  
+      </p>
+      <img src="WhatsApp%20Image%202023-12-21%20at%2020.37.23_2255e13d.jpg" alt="The Team" class="img-fluid" style="width: 400px; height: 300px;">
+    </div>
+    <br><br><br><br>
+    <div id="credits">
+      <p class="font-weight-light"><strong>Done By:</strong><br> Mohammad AL-Masri<br>
+                  Mohammad Ali Milhem<br>
+                  Ali Hamieh
+      </p>
+    
+    </div>
+    
+  </div>
+  
+
+   <button id="scroll-to-top" onclick="scrollToTop()">Top</button>
+
+  <script>
+    // Function to scroll to the top of the page
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+
+    // Show/hide scroll-to-top button based on scroll position
+    window.onscroll = function() {
+      var button = document.getElementById("scroll-to-top");
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        button.style.display = "block";
+      } else {
+        button.style.display = "none";
+      }
+    };
+  </script>
+  
+</body>
+
+</html>

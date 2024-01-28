@@ -1,0 +1,82 @@
+body {
+  background-image: linear-gradient(to bottom right, #E0D2C7, #44B09E);
+}
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150vh;
+  padding: 20px;
+}
+
+#main-title {
+  font-size: 90px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#sub-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#main-text {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#link-alzheimer {
+  color: #007bff;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#btn a {
+  text-decoration: none;
+  color: 000;
+}
+
+#about-alzheimers {
+  font-size: 25px;
+}
+
+#ComponentsOf-alzhelper p {
+  font-size: 25px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+#Aboutthe-creaters p {
+  font-size: 25px;
+}
+.last-title{
+  font-size: 40px;
+}
+
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #44B09E;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+#credits p{
+  font-size: 18px;
+  font-weight: 500px;
+}
